@@ -1,4 +1,4 @@
-# jQuery plugin to call a function when an element becomes visible
+# jQuery plugin to call a function when an element appears
 
 ## Usage
 
