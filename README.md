@@ -3,12 +3,14 @@
 ## Usage
 
 Mimics a custom 'appear' event, which fires when an element scrolls into view or otherwise becomes visible to the user.
+
     $('#foo').appear(function() {
       $(this).text('Hello world');
     });
 This plugin can be used to prevent unnecessary requests for content that's hidden or outside the viewable area.
 
-## Using with additional options
+## Usage with additional options
+
     $('#foo').appear(function() {
       $(this).text('Hello world');
     },{accX: 50, accY: 100});
