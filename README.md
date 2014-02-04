@@ -15,3 +15,5 @@ This plugin can be used to prevent unnecessary requests for content that's hidde
       $(this).text('Hello world');
     },{accX: 50, accY: 100});
 Will fire 'appear' event with accuracy 50px in X and 100px in Y
+
+http://bas2k.ru/
