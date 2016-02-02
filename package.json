@@ -1,0 +1,19 @@
+{
+  "name": "jquery.appear",
+  "version": "1.0.1",
+  "description": "jQuery plugin to call a function when an element appears",
+  "main": "jquery.appear.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bas2k/jquery.appear.git"
+  },
+  "author": "bas2k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bas2k/jquery.appear/issues"
+  },
+  "homepage": "https://github.com/bas2k/jquery.appear#readme"
+}

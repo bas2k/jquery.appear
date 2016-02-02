@@ -8,7 +8,15 @@
  * Copyright (c) 2012-2014 Alexander Brovikov
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
  */
-(function($) {
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+    } else if (typeof module === 'object' && module.exports) {
+        factory(require('jquery'));
+    } else {
+        factory(root.jQuery);
+    }
+}(this, function ($) {
     $.fn.appear = function(fn, options) {
 
         var settings = $.extend({
@@ -147,5 +155,4 @@
             }
         }
     });
-
-})(jQuery);
+}));
